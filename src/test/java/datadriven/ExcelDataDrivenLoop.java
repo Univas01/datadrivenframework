@@ -2,20 +2,20 @@ package datadriven;
 
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.apache.poi.ss.usermodel.DateUtil;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import java.io.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 public class ExcelDataDrivenLoop {
 
@@ -36,14 +36,14 @@ public class ExcelDataDrivenLoop {
             e.printStackTrace();
         }
 
-        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/browsers/chromedriver");
+       /* System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/browsers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(prop.getProperty("url"));
-        driver.findElement(By.cssSelector(".language-region-change")).click();
+        driver.findElement(By.cssSelector(".language-region-change")).click();*/
     }
 
     @Test (enabled = false)
@@ -52,7 +52,7 @@ public class ExcelDataDrivenLoop {
     }
 
     @Test
-    public void excelDataTest() {
+    public void excelDataTest() throws ParseException {
         try{
             File dataFile = new File(System.getProperty("user.dir")+"/UnitedAirlineData.xlsx");
             FileInputStream inputStream = new FileInputStream(dataFile);
@@ -66,16 +66,68 @@ public class ExcelDataDrivenLoop {
             e.printStackTrace();
         }
 
+        // Create an object for the sheet
         sh1 = workbook.getSheet("sheet1");
-        String getCellOne = sh1.getRow(1).getCell(0).getStringCellValue();
-        String getCellTwo = sh1.getRow(1).getCell(1).getStringCellValue();
-        System.out.println(getCellOne);
-        System.out.println(getCellTwo);
+
+        // Count number of rows in excel sheet
+        int lastRow = sh1.getLastRowNum();
+        System.out.println("Total number of Rows is :"+lastRow);
+
+        // for loop to automate all the test scenarios
+        for(int i = 1; i <= lastRow; i++){
+
+            // Cell variable
+            int j = 0;
+
+            // Create variables
+            String from = sh1.getRow(i).getCell(j).getStringCellValue();
+            String to = sh1.getRow(i).getCell(++j).getStringCellValue();
+            String tripType = sh1.getRow(i).getCell(++j).getStringCellValue();
+
+            double departDateNumber = (double) sh1.getRow(i).getCell(++j).getNumericCellValue();
+            Date departDate = DateUtil.getJavaDate(departDateNumber);
+            SimpleDateFormat formatDepartDate = new SimpleDateFormat("dd/MM/yyyy");
+
+            double returnDateNumber = (double) sh1.getRow(i).getCell(++j).getNumericCellValue();
+            Date returnDate = DateUtil.getJavaDate(returnDateNumber);
+            SimpleDateFormat formatReturnDate = new SimpleDateFormat("dd/MM/yyyy");
+
+            int noOfPassengers = (int)sh1.getRow(i).getCell(++j).getNumericCellValue();
+            String flightclass = sh1.getRow(i).getCell(++j).getStringCellValue();
+
+            System.out.println("from : "+ from);
+            System.out.println("to : "+ to);
+            System.out.println("triptype : "+tripType);
+            System.out.println("departDate :"+formatDepartDate.format(departDate));
+            System.out.println("returnDate :"+formatReturnDate.format(returnDate));
+            System.out.println("noOfPassengers :"+noOfPassengers);
+            System.out.println("flightclass : "+flightclass);
+
+
+           /* WebElement tripType_radioBtn = driver.findElement(By.xpath("//input[@id=\'"+tripType+"\']"));
+            tripType_radioBtn.click();
+
+            WebElement departFrom_ftf = driver.findElement(By.id("Origin"));
+            departFrom_ftf.clear();
+            departFrom_ftf.sendKeys(from);
+
+            WebElement destination_ftt = driver.findElement(By.id("Destination"));
+            destination_ftt.clear();
+            destination_ftt.sendKeys(to);
+
+            WebElement selectCabinType = driver.findElement(By.id("cabinType"));
+            Select selectCabinTypes = new Select(selectCabinType);
+            selectCabinTypes.selectByVisibleText(flightclass);*/
+
+
+
+
+        }
     }
 
 
 
-    @AfterMethod
+    @AfterMethod (enabled = false)
     public void tearDown(){
         driver.quit();
     }
