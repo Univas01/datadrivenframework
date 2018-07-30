@@ -56,7 +56,7 @@ public class ExcelDataDrivenLoop_1 {
             String tripType = sh2.getRow(i).getCell(++j).getStringCellValue();
             String departDate = sh2.getRow(i).getCell(++j).getStringCellValue();
             String returnDate = sh2.getRow(i).getCell(++j).getStringCellValue();
-            //int noOfPassenger = (int) sh2.getRow(i).getCell(++j).getNumericCellValue();
+            int noOfPassenger = (int) sh2.getRow(i).getCell(++j).getNumericCellValue();
             String flightClass = sh2.getRow(i).getCell(++j).getStringCellValue();
 
             /*System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browsers/chromedriver");
@@ -77,7 +77,7 @@ public class ExcelDataDrivenLoop_1 {
             System.out.println("tripType : "+tripType);
             System.out.println("departDate : "+departDate);
             System.out.println("returnDate : "+returnDate);
-            //System.out.println("noOfPassenger : "+noOfPassenger);
+            System.out.println("noOfPassenger : "+noOfPassenger);
             System.out.println("flightClass : "+flightClass);
 
             WebElement departFrom_ftf = driver.findElement(By.id("Origin"));
@@ -101,6 +101,12 @@ public class ExcelDataDrivenLoop_1 {
             returnDateField.clear();
             selectDateByJS(returnDateField,returnDateValue);
 
+            WebElement noOfPassengerDDM = driver.findElement(By.xpath("//a[@id='travelers-selector']/child::*/child::span[2]"));
+            noOfPassengerDDM.click();
+            WebElement selectNoOfPass = driver.findElement(By.xpath("//input[@name='NumOfAdults']"));
+            selectNoOfPass.clear();
+            sendKeys(driver, selectNoOfPass, 10, String.valueOf(noOfPassenger));
+
             WebElement selectCabinType = driver.findElement(By.id("cabinType"));
             Select selectCabinTypes = new Select(selectCabinType);
             selectCabinTypes.selectByVisibleText(flightClass);
@@ -120,6 +126,11 @@ public class ExcelDataDrivenLoop_1 {
     public static void clickMethod(WebDriver driver, long timeout, WebElement element) {
         WebDriverWait one = new WebDriverWait(driver, timeout);
         one.until(ExpectedConditions.elementToBeClickable(element));
+    }
+
+    public static void sendKeys(WebDriver driver, WebElement element, int timeout, String value) {
+        new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(element));
+        element.sendKeys(value);
     }
 
     @AfterMethod (enabled =  false)
