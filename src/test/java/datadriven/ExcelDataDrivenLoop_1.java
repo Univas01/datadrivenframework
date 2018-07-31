@@ -4,16 +4,15 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
+
 import java.io.*;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -26,7 +25,7 @@ public class ExcelDataDrivenLoop_1 {
     public Sheet sh2;
 
     @Test
-    public void excelDataTest() {
+    public void excelDataTest() throws InterruptedException {
         try {
             File dataFile = new File(System.getProperty("user.dir") + "/UnitedAirlineData.xlsx");
             FileInputStream inputStream = new FileInputStream(dataFile);
@@ -47,7 +46,7 @@ public class ExcelDataDrivenLoop_1 {
         int lastRow = sh2.getLastRowNum();
         System.out.println("Total number of Rows is :" + lastRow);
 
-        for(int i = 1; i <= lastRow; i++){
+        for(int i = 3; i <= lastRow; i++){
             int j = 0;
 
             System.out.println("======================================");
@@ -59,7 +58,7 @@ public class ExcelDataDrivenLoop_1 {
             int noOfPassenger = (int) sh2.getRow(i).getCell(++j).getNumericCellValue();
             String flightClass = sh2.getRow(i).getCell(++j).getStringCellValue();
 
-            /*System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browsers/chromedriver");
+           /* System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browsers/chromedriver");
             driver = new ChromeDriver();*/
 
             System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/browsers/geckodriver");
@@ -104,15 +103,20 @@ public class ExcelDataDrivenLoop_1 {
             WebElement noOfPassengerDDM = driver.findElement(By.xpath("//a[@id='travelers-selector']/child::*/child::span[2]"));
             noOfPassengerDDM.click();
             WebElement selectNoOfPass = driver.findElement(By.xpath("//input[@name='NumOfAdults']"));
-            selectNoOfPass.clear();
+            selectNoOfPass.sendKeys(Keys.BACK_SPACE);
             sendKeys(driver, selectNoOfPass, 10, String.valueOf(noOfPassenger));
+            driver.findElement(By.xpath("//div[@id='travelers-select']/descendant::button")).click();
 
             WebElement selectCabinType = driver.findElement(By.id("cabinType"));
             Select selectCabinTypes = new Select(selectCabinType);
             selectCabinTypes.selectByVisibleText(flightClass);
 
             WebElement submitFlightBookingBtn = driver.findElement(By.xpath("//button[@id='flightBookingSubmit']"));
-            clickMethod(driver, 10, submitFlightBookingBtn);
+            clickOnJSObject(submitFlightBookingBtn);
+
+            String title = driver.getTitle();
+            Assert.assertEquals(title,"United Airlines – Airline Tickets, Travel Deals and Flights");
+            System.out.println(title);
 
             driver.quit();
         }
@@ -131,6 +135,11 @@ public class ExcelDataDrivenLoop_1 {
     public static void sendKeys(WebDriver driver, WebElement element, int timeout, String value) {
         new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(element));
         element.sendKeys(value);
+    }
+
+    public static void clickOnJSObject(WebElement element){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].click();", element);
     }
 
     @AfterMethod (enabled =  false)
