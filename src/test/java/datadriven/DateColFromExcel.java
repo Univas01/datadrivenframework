@@ -17,7 +17,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 
-public class ExcelDataDrivenLoop {
+public class DateColFromExcel {
 
     public static WebDriver driver;
     public static Properties prop;

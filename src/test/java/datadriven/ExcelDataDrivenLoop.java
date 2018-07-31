@@ -18,7 +18,7 @@ import java.io.*;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class ExcelDataDrivenLoop_1 {
+public class ExcelDataDrivenLoop {
 
     public static WebDriver driver;
     public static Properties prop;
