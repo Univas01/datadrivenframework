@@ -59,6 +59,14 @@ public class ExcelDataDrivenLoop {
             int noOfPassenger = (int) sh2.getRow(i).getCell(++j).getNumericCellValue();
             String flightClass = sh2.getRow(i).getCell(++j).getStringCellValue();
 
+            System.out.println("from : "+from);
+            System.out.println("to : "+to);
+            System.out.println("tripType : "+tripType);
+            System.out.println("departDate : "+departDate);
+            System.out.println("returnDate : "+returnDate);
+            System.out.println("noOfPassenger : "+noOfPassenger);
+            System.out.println("flightClass : "+flightClass);
+
             try{
                 prop  = new Properties();
                 FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"/resources/config.properties");
@@ -87,14 +95,6 @@ public class ExcelDataDrivenLoop {
             driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
             driver.get(prop.getProperty("url"));
             driver.findElement(By.cssSelector(".language-region-change")).click();
-
-            System.out.println("from : "+from);
-            System.out.println("to : "+to);
-            System.out.println("tripType : "+tripType);
-            System.out.println("departDate : "+departDate);
-            System.out.println("returnDate : "+returnDate);
-            System.out.println("noOfPassenger : "+noOfPassenger);
-            System.out.println("flightClass : "+flightClass);
 
             WebElement departFrom_ftf = driver.findElement(By.id("Origin"));
             departFrom_ftf.clear();
