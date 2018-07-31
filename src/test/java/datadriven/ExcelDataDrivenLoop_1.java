@@ -5,7 +5,9 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -24,7 +26,7 @@ public class ExcelDataDrivenLoop_1 {
     public Sheet sh2;
 
     @Test
-    public void excelDataTest() throws InterruptedException {
+    public void excelDataTest() {
         try {
             File dataFile = new File(System.getProperty("user.dir") + "/UnitedAirlineData.xlsx");
             FileInputStream inputStream = new FileInputStream(dataFile);
@@ -57,17 +59,33 @@ public class ExcelDataDrivenLoop_1 {
             int noOfPassenger = (int) sh2.getRow(i).getCell(++j).getNumericCellValue();
             String flightClass = sh2.getRow(i).getCell(++j).getStringCellValue();
 
-           /* System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browsers/chromedriver");
-            driver = new ChromeDriver();*/
+            try{
+                prop  = new Properties();
+                FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"/resources/config.properties");
+                prop.load(ip);
+            } catch (FileNotFoundException e){
+                e.printStackTrace();
+            } catch (IOException e){
+                e.printStackTrace();
+            }
 
-            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/browsers/geckodriver");
-            driver = new FirefoxDriver();
+            String browserName = prop.getProperty("browser");
+
+            if(browserName.equalsIgnoreCase("chrome")){
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browsers/chromedriver");
+                driver = new ChromeDriver();
+            } else if(browserName.equalsIgnoreCase("firefox")){
+                System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/browsers/geckodriver");
+                driver = new FirefoxDriver();
+            } else if(browserName.equalsIgnoreCase("safari")){
+                driver = new SafariDriver();
+            }
 
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
-            driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-            driver.get("https://www.united.com/ual/en/us/");
+            driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+            driver.get(prop.getProperty("url"));
             driver.findElement(By.cssSelector(".language-region-change")).click();
 
             System.out.println("from : "+from);
@@ -114,8 +132,14 @@ public class ExcelDataDrivenLoop_1 {
             clickOnJSObject(submitFlightBookingBtn);
 
             String title = driver.getTitle();
-            Assert.assertEquals(title,"United Airlines – Airline Tickets, Travel Deals and Flights");
+            Assert.assertEquals(title,"Flight Search Results | United Airlines");
             System.out.println(title);
+
+            WebElement departure = driver.findElement(By.xpath("//div[@class='lof-origin2']"));
+            String departureText = departure.getText();
+            System.out.println(departureText);
+            boolean flag = departure.isDisplayed();
+            Assert.assertTrue(flag);
 
             driver.quit();
         }
