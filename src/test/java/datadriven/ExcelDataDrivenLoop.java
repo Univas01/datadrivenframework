@@ -7,10 +7,10 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -35,20 +35,6 @@ public class ExcelDataDrivenLoop {
         } catch (IOException e){
             e.printStackTrace();
         }
-
-       /* System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/browsers/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().deleteAllCookies();
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get(prop.getProperty("url"));
-        driver.findElement(By.cssSelector(".language-region-change")).click();*/
-    }
-
-    @Test (enabled = false)
-    public void homePageTitleTest(){
-        Assert.assertEquals(driver.getTitle(), "United Airlines – Airline Tickets, Travel Deals and Flights");
     }
 
     @Test
@@ -102,26 +88,6 @@ public class ExcelDataDrivenLoop {
             System.out.println("returnDate :"+formatReturnDate.format(returnDate));
             System.out.println("noOfPassengers :"+noOfPassengers);
             System.out.println("flightclass : "+flightclass);
-
-
-           /* WebElement tripType_radioBtn = driver.findElement(By.xpath("//input[@id=\'"+tripType+"\']"));
-            tripType_radioBtn.click();
-
-            WebElement departFrom_ftf = driver.findElement(By.id("Origin"));
-            departFrom_ftf.clear();
-            departFrom_ftf.sendKeys(from);
-
-            WebElement destination_ftt = driver.findElement(By.id("Destination"));
-            destination_ftt.clear();
-            destination_ftt.sendKeys(to);
-
-            WebElement selectCabinType = driver.findElement(By.id("cabinType"));
-            Select selectCabinTypes = new Select(selectCabinType);
-            selectCabinTypes.selectByVisibleText(flightclass);*/
-
-
-
-
         }
     }
 
