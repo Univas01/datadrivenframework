@@ -94,7 +94,12 @@ public class ExcelDataDrivenLoop {
             driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
             driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
             driver.get(prop.getProperty("url"));
-            driver.findElement(By.cssSelector(".language-region-change")).click();
+
+            WebElement btn = driver.findElement(By.cssSelector(".language-region-change"));
+
+            if(btn.isEnabled()){
+                btn.click();
+            }
 
             WebElement departFrom_ftf = driver.findElement(By.id("Origin"));
             departFrom_ftf.clear();
@@ -134,12 +139,6 @@ public class ExcelDataDrivenLoop {
             String title = driver.getTitle();
             Assert.assertEquals(title,"Flight Search Results | United Airlines");
             System.out.println(title);
-
-            WebElement departure = driver.findElement(By.xpath("//div[@class='lof-origin2']"));
-            String departureText = departure.getText();
-            System.out.println(departureText);
-            boolean flag = departure.isDisplayed();
-            Assert.assertTrue(flag);
 
             driver.quit();
         }
