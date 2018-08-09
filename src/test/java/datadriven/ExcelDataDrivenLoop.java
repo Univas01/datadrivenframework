@@ -91,8 +91,8 @@ public class ExcelDataDrivenLoop {
 
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
-            driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(45, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
             driver.get(prop.getProperty("url"));
             driver.findElement(By.cssSelector(".language-region-change")).click();
 
@@ -135,12 +135,6 @@ public class ExcelDataDrivenLoop {
             Assert.assertEquals(title,"Flight Search Results | United Airlines");
             System.out.println(title);
 
-            WebElement departure = driver.findElement(By.xpath("//div[@class='lof-origin2']"));
-            String departureText = departure.getText();
-            System.out.println(departureText);
-            boolean flag = departure.isDisplayed();
-            Assert.assertTrue(flag);
-
             driver.quit();
         }
     }
@@ -148,11 +142,6 @@ public class ExcelDataDrivenLoop {
     public static void selectDateByJS(WebElement element, String dateValue) {
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("arguments[0].setAttribute('value','"+dateValue+"');", element);
-    }
-
-    public static void clickMethod(WebDriver driver, long timeout, WebElement element) {
-        WebDriverWait one = new WebDriverWait(driver, timeout);
-        one.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public static void sendKeys(WebDriver driver, WebElement element, int timeout, String value) {
