@@ -94,7 +94,12 @@ public class ExcelDataDrivenLoop {
             driver.manage().timeouts().pageLoadTimeout(45, TimeUnit.SECONDS);
             driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
             driver.get(prop.getProperty("url"));
-            driver.findElement(By.cssSelector(".language-region-change")).click();
+
+            WebElement btn = driver.findElement(By.cssSelector(".language-region-change"));
+
+            if(btn.isEnabled()){
+                btn.click();
+            }
 
             WebElement departFrom_ftf = driver.findElement(By.id("Origin"));
             departFrom_ftf.clear();
