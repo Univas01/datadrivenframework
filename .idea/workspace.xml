@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cc7aa33-12ae-4772-aa11-624d960c697e" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/seleniumgrid/GridForChrome.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/node1.json" afterPath="$PROJECT_DIR$/node1.json" />
-      <change beforePath="$PROJECT_DIR$/node2.json" afterPath="$PROJECT_DIR$/node2.json" />
-      <change beforePath="$PROJECT_DIR$/resources/config.properties" afterPath="$PROJECT_DIR$/resources/config.properties" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgrid/GridForFirefox.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumgrid/GridForFirefox.java" />
-    </list>
+    <list default="true" id="4cc7aa33-12ae-4772-aa11-624d960c697e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
