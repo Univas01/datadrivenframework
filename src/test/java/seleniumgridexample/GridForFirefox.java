@@ -1,7 +1,6 @@
-package test.java.seleniumgrid;
+package test.java.seleniumgridexample;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
@@ -16,7 +15,7 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class GridForChrome {
+public class GridForFirefox {
 
     public static WebDriver driver;
     public static Properties prop;
@@ -35,10 +34,9 @@ public class GridForChrome {
         }
 
             String hubRUL = "http://localhost:4444/wd/hub";
-            DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
-            desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, System.getProperty("user.dir") + "/browsers/chromedriver");
+            DesiredCapabilities desiredCapabilities = DesiredCapabilities.firefox();
             desiredCapabilities.setPlatform(Platform.MAC);
-            desiredCapabilities.setBrowserName("chrome");
+            desiredCapabilities.setBrowserName("firefox");
             desiredCapabilities.acceptInsecureCerts();
 
         try{

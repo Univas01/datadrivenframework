@@ -6,23 +6,11 @@
       "marionette": true,
       "maxInstances": 2,
       "seleniumProtocol": "WebDriver"
-    },
-    {
-      "browserName": "chrome",
-      "maxInstances": 3,
-      "seleniumProtocol": "WebDriver"
-    },
-    {
-      "browserName": "safari",
-      "technologyPreview": false,
-      "platform": "MAC",
-      "maxInstances": 1,
-      "seleniumProtocol": "WebDriver"
     }
   ],
   "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
   "maxSession": 5,
-  "port": -1,
+  "port": 4471,
   "register": true,
   "registerCycle": 5000,
   "hub": "http://10.7.7.79:4444",
@@ -35,6 +23,6 @@
   "servlets" : [],
   "withoutServlets": [],
   "custom": {},
-  "browserTimeout": 0,
+  "browserTimeout": 5000,
   "timeout": 1800
 }

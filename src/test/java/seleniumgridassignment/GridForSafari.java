@@ -1,4 +1,4 @@
-package test.java.seleniumgrid;
+package test.java.seleniumgridassignment;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -15,7 +15,7 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class GridForFirefox {
+public class GridForSafari {
 
     public static WebDriver driver;
     public static Properties prop;
@@ -34,9 +34,9 @@ public class GridForFirefox {
         }
 
             String hubRUL = "http://localhost:4444/wd/hub";
-            DesiredCapabilities desiredCapabilities = DesiredCapabilities.firefox();
+            DesiredCapabilities desiredCapabilities = DesiredCapabilities.safari();
             desiredCapabilities.setPlatform(Platform.MAC);
-            desiredCapabilities.setBrowserName("firefox");
+            desiredCapabilities.setBrowserName("safari");
             desiredCapabilities.acceptInsecureCerts();
 
         try{
