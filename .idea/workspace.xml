@@ -9,6 +9,12 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChrome.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChrome.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefox.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefox.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForSafari.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForSafari.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/seleniumgridassignment/ExcelGridForChrome.class" afterPath="$PROJECT_DIR$/target/classes/test/java/seleniumgridassignment/ExcelGridForChrome.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/seleniumgridassignment/ExcelGridForFirefox.class" afterPath="$PROJECT_DIR$/target/classes/test/java/seleniumgridassignment/ExcelGridForFirefox.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/seleniumgridassignment/GridForSafari.class" afterPath="$PROJECT_DIR$/target/classes/test/java/seleniumgridassignment/GridForSafari.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForChrome.class" afterPath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForChrome.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForFirefox.class" afterPath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForFirefox.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForSafari.class" afterPath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForSafari.class" />
       <change beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
