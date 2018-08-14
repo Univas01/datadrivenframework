@@ -3,10 +3,11 @@
 <suite name="SeleniumGrid TestNG">
     <test name="Regression Test" parallel="classes" thread-count="3" >
         <classes>
-            <class name="test.java.seleniumgridassignment.ExcelGridForChrome" />
-            <class name="test.java.seleniumgridassignment.ExcelGridForFirefox" />
+            <!--<class name="test.java.seleniumgridassignment.ExcelGridForChrome" />-->
             <!--<class name="test.java.seleniumgridassignment.ExcelGridForFirefox" />-->
-            <!--<class name="test.java.seleniumgridexampleexample.GridForSafari" />-->
+            <!--<class name="test.java.seleniumgridassignment.ExcelGridForFirefox" />-->
+            <class name="test.java.seleniumgridexample.GridForFirefox" />
+            <class name="test.java.seleniumgridexample.GridForChrome" />
         </classes>
     </test>
 </suite>

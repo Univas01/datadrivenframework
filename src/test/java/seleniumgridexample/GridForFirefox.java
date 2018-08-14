@@ -34,7 +34,7 @@ public class GridForFirefox {
         }
 
             String hubRUL = "http://localhost:4444/wd/hub";
-            DesiredCapabilities desiredCapabilities = DesiredCapabilities.firefox();
+            DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
             desiredCapabilities.setPlatform(Platform.MAC);
             desiredCapabilities.setBrowserName("firefox");
             desiredCapabilities.acceptInsecureCerts();

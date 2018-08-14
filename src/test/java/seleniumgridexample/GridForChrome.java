@@ -35,7 +35,7 @@ public class GridForChrome {
         }
 
             String hubRUL = "http://localhost:4444/wd/hub";
-            DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
+            DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
             desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, System.getProperty("user.dir") + "/browsers/chromedriver");
             desiredCapabilities.setPlatform(Platform.MAC);
             desiredCapabilities.setBrowserName("chrome");

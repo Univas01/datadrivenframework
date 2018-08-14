@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cc7aa33-12ae-4772-aa11-624d960c697e" name="Default Changelist" comment="" />
+    <list default="true" id="4cc7aa33-12ae-4772-aa11-624d960c697e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForChrome.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForChrome.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForFirefox.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForFirefox.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgridassignment/GridForSafari.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumgridassignment/GridForSafari.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChrome.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChrome.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefox.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefox.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForSafari.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForSafari.java" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +39,18 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="ExcelGridForChrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForChrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="87" column="54" lean-forward="true" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,10 +84,14 @@
         <option value="$PROJECT_DIR$/node3.json" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForFireFox1.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForChrome1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForChrome.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForFireFox.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefox.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChrome.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForChrome.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForFirefox.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumgridassignment/GridForSafari.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForSafari.java" />
       </list>
     </option>
   </component>
@@ -100,9 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,11 +142,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="datadrivenframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datadrivenframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumgridassignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datadrivenframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datadrivenframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumgridexample" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,8 +191,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ExcelGridForFirefox.excelGridForFirefoxTest">
-    <configuration name="ExcelGridForChrome" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExcelGridForChrome.gridForForChromeTest">
+    <configuration name="ExcelGridForChrome.gridForForChromeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.java.seleniumgridassignment.*" />
@@ -167,41 +205,9 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="test.java.seleniumgridassignment" />
       <option name="MAIN_CLASS_NAME" value="test.java.seleniumgridassignment.ExcelGridForChrome" />
-      <option name="METHOD_NAME" />
+      <option name="METHOD_NAME" value="gridForForChromeTest" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="ExcelGridForFirefox" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.java.seleniumgridassignment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="datadrivenframework" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test.java.seleniumgridassignment" />
-      <option name="MAIN_CLASS_NAME" value="test.java.seleniumgridassignment.ExcelGridForFirefox" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -250,10 +256,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ExcelGridForFirefox.gridForForFireFox" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GridForChrome" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.java.seleniumgridassignment.*" />
+          <option name="PATTERN" value="test.java.seleniumgridexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,11 +267,11 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test.java.seleniumgridassignment" />
-      <option name="MAIN_CLASS_NAME" value="test.java.seleniumgridassignment.ExcelGridForFirefox" />
-      <option name="METHOD_NAME" value="gridForForFireFox" />
+      <option name="PACKAGE_NAME" value="test.java.seleniumgridexample" />
+      <option name="MAIN_CLASS_NAME" value="test.java.seleniumgridexample.GridForChrome" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -282,17 +288,54 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="/Users/ola.ajala/Desktop/OwnProject/CompleteAutomationBootCamp/datadrivenframework/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="GridForFirefox" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.seleniumgridexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="datadrivenframework" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="test.java.seleniumgridexample" />
+      <option name="MAIN_CLASS_NAME" value="test.java.seleniumgridexample.GridForFirefox" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="GridForSafari" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.seleniumgridexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="datadrivenframework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="test.java.seleniumgridexample" />
+      <option name="MAIN_CLASS_NAME" value="test.java.seleniumgridexample.GridForSafari" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -310,18 +353,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.ExcelGridForChrome" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG./Users/ola.ajala/Desktop/OwnProject/CompleteAutomationBootCamp/datadrivenframework/testng.xml" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.ExcelGridForFirefox" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.ExcelGridForFirefox.gridForForFireFox" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.ExcelGridForFirefox.excelGridForFirefoxTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.ExcelGridForChrome.gridForForChromeTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ExcelGridForFirefox.excelGridForFirefoxTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.GridForSafari" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.GridForFirefox" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.GridForChrome" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ExcelGridForFirefox.excelGridForFirefoxTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG./Users/ola.ajala/Desktop/OwnProject/CompleteAutomationBootCamp/datadrivenframework/testng.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ExcelGridForFirefox.gridForForFireFox" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.ExcelGridForFirefox" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ExcelGridForChrome.gridForForChromeTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.GridForChrome" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.GridForFirefox" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.GridForSafari" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ExcelGridForFirefox.excelGridForFirefoxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -341,34 +385,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExcelGridForChrome1 - 2018.08.13 at 14h 05m 14s.xml">
-      <configuration name="ExcelGridForChrome1" configurationId="TestNG" />
+    <history-entry file="ExcelGridForChrome_gridForForChromeTest - 2018.08.14 at 14h 57m 35s.xml">
+      <configuration name="ExcelGridForChrome.gridForForChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExcelGridForChrome1 - 2018.08.13 at 14h 10m 22s.xml">
-      <configuration name="ExcelGridForChrome1" configurationId="TestNG" />
+    <history-entry file="ExcelGridForChrome_gridForForChromeTest - 2018.08.14 at 15h 01m 56s.xml">
+      <configuration name="ExcelGridForChrome.gridForForChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExcelGridForFireFox1 - 2018.08.13 at 14h 08m 46s.xml">
-      <configuration name="ExcelGridForFireFox1" configurationId="TestNG" />
+    <history-entry file="ExcelGridForChrome_gridForForChromeTest - 2018.08.14 at 15h 16m 16s.xml">
+      <configuration name="ExcelGridForChrome.gridForForChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExcelGridForFireFox1_gridForForFireFox - 2018.08.13 at 14h 09m 46s.xml">
-      <configuration name="ExcelGridForFireFox1.gridForForFireFox" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExcelGridForFirefox_excelGridForFirefoxTest - 2018.08.13 at 14h 21m 59s.xml">
+    <history-entry file="ExcelGridForFirefox_excelGridForFirefoxTest - 2018.08.14 at 14h 59m 41s.xml">
       <configuration name="ExcelGridForFirefox.excelGridForFirefoxTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExcelGridForFirefox_excelGridForFirefoxTest - 2018.08.13 at 14h 26m 59s.xml">
-      <configuration name="ExcelGridForFirefox.excelGridForFirefoxTest" configurationId="TestNG" />
+    <history-entry file="GridForChrome - 2018.08.14 at 14h 55m 57s.xml">
+      <configuration name="GridForChrome" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExcelGridForFirefox_excelGridForFirefoxTest - 2018.08.13 at 14h 30m 32s.xml">
-      <configuration name="ExcelGridForFirefox.excelGridForFirefoxTest" configurationId="TestNG" />
+    <history-entry file="GridForChrome - 2018.08.14 at 15h 13m 40s.xml">
+      <configuration name="GridForChrome" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExcelGridForFirefox_excelGridForFirefoxTest - 2018.08.13 at 14h 31m 40s.xml">
-      <configuration name="ExcelGridForFirefox.excelGridForFirefoxTest" configurationId="TestNG" />
+    <history-entry file="GridForChrome_(1) - 2018.08.14 at 14h 58m 11s.xml">
+      <configuration name="GridForChrome (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_ola_ajala_Desktop_OwnProject_CompleteAutomationBootCamp_datadrivenframework_testng_xml - 2018.08.13 at 13h 05m 56s.xml">
-      <configuration name="/Users/ola.ajala/Desktop/OwnProject/CompleteAutomationBootCamp/datadrivenframework/testng.xml" configurationId="TestNG" />
+    <history-entry file="GridForFirefox - 2018.08.14 at 15h 11m 51s.xml">
+      <configuration name="GridForFirefox" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_ola_ajala_Desktop_OwnProject_CompleteAutomationBootCamp_datadrivenframework_testng_xml - 2018.08.13 at 14h 16m 20s.xml">
+    <history-entry file="GridForSafari - 2018.08.14 at 15h 05m 47s.xml">
+      <configuration name="GridForSafari" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_ola_ajala_Desktop_OwnProject_CompleteAutomationBootCamp_datadrivenframework_testng_xml - 2018.08.14 at 14h 56m 24s.xml">
       <configuration name="/Users/ola.ajala/Desktop/OwnProject/CompleteAutomationBootCamp/datadrivenframework/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -383,13 +427,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33056134" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41580042" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22151224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19382322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -410,7 +453,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39896372" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32640332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -477,13 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgrid/GridForFirefox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgrid/GridForFirefox.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/datadriven/DBDataDrivenLoop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -492,13 +528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgrid/GridForChrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgrid/GridForChrome.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -672,38 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForSafari.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-535">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node1.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node3.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -723,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="59" column="39" lean-forward="false" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForChrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -744,33 +739,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridassignment/GridForSafari.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/datadriven/DBDataDrivenLoop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="77" column="54" lean-forward="false" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForFirefox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="106" column="104" lean-forward="false" selection-start-line="106" selection-start-column="84" selection-end-line="106" selection-end-column="104" />
         </state>
       </provider>
     </entry>
@@ -782,10 +755,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="68" lean-forward="false" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForFirefox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="85" column="58" lean-forward="true" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridassignment/GridForSafari.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForSafari.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="41" column="51" lean-forward="false" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="36" column="80" lean-forward="true" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForChrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        <state relative-caret-position="349">
+          <caret line="87" column="54" lean-forward="true" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>

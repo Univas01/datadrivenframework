@@ -34,7 +34,7 @@ public class GridForSafari {
         }
 
             String hubRUL = "http://localhost:4444/wd/hub";
-            DesiredCapabilities desiredCapabilities = DesiredCapabilities.safari();
+            DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
             desiredCapabilities.setPlatform(Platform.MAC);
             desiredCapabilities.setBrowserName("safari");
             desiredCapabilities.acceptInsecureCerts();
