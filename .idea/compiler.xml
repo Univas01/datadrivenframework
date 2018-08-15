@@ -9,8 +9,5 @@
         <module name="datadrivenframework" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="datadrivenframework" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

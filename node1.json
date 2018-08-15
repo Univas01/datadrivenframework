@@ -13,7 +13,7 @@
   "port": 4471,
   "register": true,
   "registerCycle": 5000,
-  "hub": "http://10.7.7.79:4444",
+  "hub": "http://192.168.99.1:4444",
   "nodeStatusCheckTimeout": 5000,
   "nodePolling": 5000,
   "role": "node",

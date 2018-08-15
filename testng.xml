@@ -6,8 +6,12 @@
             <!--<class name="test.java.seleniumgridassignment.ExcelGridForChrome" />-->
             <!--<class name="test.java.seleniumgridassignment.ExcelGridForFirefox" />-->
             <!--<class name="test.java.seleniumgridassignment.ExcelGridForFirefox" />-->
-            <class name="test.java.seleniumgridexample.GridForFirefox" />
             <class name="test.java.seleniumgridexample.GridForChrome" />
+            <class name="test.java.seleniumgridexample.GridForChromeTwo" />
+            <class name="test.java.seleniumgridexample.GridForChromeThree" />
+            <class name="test.java.seleniumgridexample.GridForFirefox" />
+            <class name="test.java.seleniumgridexample.GridForFirefoxTwo" />
+            <class name="test.java.seleniumgridexample.GridForFirefoxThree" />
         </classes>
     </test>
 </suite>
