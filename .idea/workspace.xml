@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc7aa33-12ae-4772-aa11-624d960c697e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChromeThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChromeTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefoxThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefoxTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paralleltestwithTestNG/ParallelChrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paralleltestwithTestNG/ParallelTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngparalleltest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node1.json" beforeDir="false" afterPath="$PROJECT_DIR$/node1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node2.json" beforeDir="false" afterPath="$PROJECT_DIR$/node2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/seleniumgridassignment/GridForSafari.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/seleniumgridassignment/GridForSafari.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForChrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForChrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForFirefox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForFirefox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForSafari.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/seleniumgridexample/GridForSafari.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,18 +22,18 @@
     <session id="-598919516">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="17" />
           <entry key="json" value="2" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="6" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="17" />
           <entry key="JSON" value="2" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="6" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -52,20 +44,61 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="36" />
-          <entry key="XML" value="3" />
+          <entry key="JAVA" value="114" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="58" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="36" />
-          <entry key="xml" value="3" />
+          <entry key="dummy" value="6" />
+          <entry key="java" value="114" />
+          <entry key="properties" value="58" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testngparalleltest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/paralleltestwithTestNG/ParallelChrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="37" column="63" lean-forward="true" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/paralleltestwithTestNG/ParallelTest1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -102,10 +135,15 @@
         <option value="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChromeTwo.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChromeThree.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefox.java" />
-        <option value="$PROJECT_DIR$/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefoxTwo.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefoxThree.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/resources/config.properties" />
+        <option value="$PROJECT_DIR$/testngparalleltest.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/paralleltestwithTestNG/ParallelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/paralleltestwithTestNG/ParallelChromeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/paralleltestwithTestNG/ParallelChrome.java" />
+        <option value="$PROJECT_DIR$/src/test/java/paralleltestwithTestNG/ParallelTest1.java" />
       </list>
     </option>
   </component>
@@ -170,6 +208,13 @@
               <item name="datadrivenframework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paralleltestwithTestNG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datadrivenframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datadrivenframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="seleniumgridexample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -181,15 +226,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534353659174" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534418038286" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.java.paralleltestwithTestNG" />
       <recent name="test.java.seleniumgridexample" />
       <recent name="test.java.seleniumgridassignment" />
       <recent name="test.java.seleniumgrid" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/java/seleniumgridassignment" />
       <recent name="$PROJECT_DIR$/browsers" />
     </key>
@@ -206,74 +253,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testng.xml">
-    <configuration name="GridForChrome" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testngparalleltest.xml">
+    <configuration name="ParallelChrome" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="datadrivenframework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.java.seleniumgridexample.*" />
+          <option name="PATTERN" value="test.java.paralleltestwithTestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.java.seleniumgridexample" />
-      <option name="MAIN_CLASS_NAME" value="test.java.seleniumgridexample.GridForChrome" />
+      <option name="PACKAGE_NAME" value="test.java.paralleltestwithTestNG" />
+      <option name="MAIN_CLASS_NAME" value="test.java.paralleltestwithTestNG.ParallelChrome" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridForFirefox (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParallelChrome.chromeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="datadrivenframework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.java.seleniumgridexample.*" />
+          <option name="PATTERN" value="test.java.paralleltestwithTestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.java.seleniumgridexample" />
-      <option name="MAIN_CLASS_NAME" value="test.java.seleniumgridexample.GridForFirefox" />
+      <option name="PACKAGE_NAME" value="test.java.paralleltestwithTestNG" />
+      <option name="MAIN_CLASS_NAME" value="test.java.paralleltestwithTestNG.ParallelChrome" />
+      <option name="METHOD_NAME" value="chromeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridForFirefox (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParallelChrome.firefoxTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="datadrivenframework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.java.seleniumgridexample.*" />
+          <option name="PATTERN" value="test.java.paralleltestwithTestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.java.seleniumgridexample" />
-      <option name="MAIN_CLASS_NAME" value="test.java.seleniumgridexample.GridForFirefox" />
+      <option name="PACKAGE_NAME" value="test.java.paralleltestwithTestNG" />
+      <option name="MAIN_CLASS_NAME" value="test.java.paralleltestwithTestNG.ParallelChrome" />
+      <option name="METHOD_NAME" value="firefoxTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridForFirefox" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParallelFirefox" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="datadrivenframework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.java.seleniumgridexample.*" />
+          <option name="PATTERN" value="test.java.paralleltestwithTestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.java.seleniumgridexample" />
-      <option name="MAIN_CLASS_NAME" value="test.java.seleniumgridexample.GridForFirefox" />
+      <option name="PACKAGE_NAME" value="test.java.paralleltestwithTestNG" />
+      <option name="MAIN_CLASS_NAME" value="test.java.paralleltestwithTestNG.ParallelFirefox" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testngparalleltest.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="datadrivenframework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngparalleltest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -282,19 +333,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.GridForChrome" />
-      <item itemvalue="TestNG.GridForFirefox (2)" />
-      <item itemvalue="TestNG./Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testng.xml" />
-      <item itemvalue="TestNG.GridForFirefox" />
-      <item itemvalue="TestNG.GridForFirefox (1)" />
+      <item itemvalue="TestNG.ParallelChromeTest" />
+      <item itemvalue="TestNG./Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testngparalleltest.xml" />
+      <item itemvalue="TestNG.ParallelChrome.chromeTest" />
+      <item itemvalue="TestNG.ParallelChrome.firefoxTest" />
+      <item itemvalue="TestNG.ParallelFirefox" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testng.xml" />
-        <item itemvalue="TestNG.GridForFirefox (1)" />
-        <item itemvalue="TestNG.GridForFirefox" />
-        <item itemvalue="TestNG.GridForChrome" />
-        <item itemvalue="TestNG.GridForFirefox (2)" />
+        <item itemvalue="TestNG./Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testngparalleltest.xml" />
+        <item itemvalue="TestNG.ParallelFirefox" />
+        <item itemvalue="TestNG.ParallelChromeTest" />
+        <item itemvalue="TestNG.ParallelChrome.firefoxTest" />
+        <item itemvalue="TestNG.ParallelChrome.chromeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -312,41 +363,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GridForFirefox_(1) - 2018.08.15 at 17h 35m 18s.xml">
-      <configuration name="GridForFirefox (1)" configurationId="TestNG" />
+    <history-entry file="ParallelTest_chromeTest - 2018.08.16 at 11h 56m 46s.xml">
+      <configuration name="ParallelTest.chromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GridForChrome_(1) - 2018.08.15 at 17h 35m 29s.xml">
-      <configuration name="GridForChrome (1)" configurationId="TestNG" />
+    <history-entry file="ParallelTest_firefoxTest - 2018.08.16 at 11h 57m 13s.xml">
+      <configuration name="ParallelTest.firefoxTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GridForFirefox_(2) - 2018.08.15 at 17h 37m 12s.xml">
-      <configuration name="GridForFirefox (2)" configurationId="TestNG" />
+    <history-entry file="ParallelTest_(1) - 2018.08.16 at 11h 57m 51s.xml">
+      <configuration name="ParallelTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GridForChrome - 2018.08.15 at 17h 59m 09s.xml">
-      <configuration name="GridForChrome" configurationId="TestNG" />
+    <history-entry file="_Users_Olasunkanmi_Documents_workspace_CompleteSeleniumBootcamp_datadrivenframework_testngparalleltest_xml - 2018.08.16 at 11h 59m 08s.xml">
+      <configuration name="/Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testngparalleltest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GridForChrome - 2018.08.15 at 17h 59m 52s.xml">
-      <configuration name="GridForChrome" configurationId="TestNG" />
+    <history-entry file="_Users_Olasunkanmi_Documents_workspace_CompleteSeleniumBootcamp_datadrivenframework_testngparalleltest_xml - 2018.08.16 at 12h 02m 44s.xml">
+      <configuration name="/Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testngparalleltest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Olasunkanmi_Documents_workspace_CompleteSeleniumBootcamp_datadrivenframework_testng_xml - 2018.08.15 at 18h 01m 33s.xml">
-      <configuration name="/Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testng.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Olasunkanmi_Documents_workspace_CompleteSeleniumBootcamp_datadrivenframework_testngparalleltest_xml - 2018.08.16 at 12h 04m 29s.xml">
+      <configuration name="/Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testngparalleltest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Olasunkanmi_Documents_workspace_CompleteSeleniumBootcamp_datadrivenframework_testng_xml - 2018.08.15 at 18h 03m 06s.xml">
-      <configuration name="/Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testng.xml" configurationId="TestNG" />
+    <history-entry file="ParallelTest_(1) - 2018.08.16 at 12h 06m 56s.xml">
+      <configuration name="ParallelTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GridForFirefox - 2018.08.15 at 18h 06m 49s.xml">
-      <configuration name="GridForFirefox" configurationId="TestNG" />
+    <history-entry file="ParallelTest_(1) - 2018.08.16 at 12h 07m 54s.xml">
+      <configuration name="ParallelTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GridForFirefox_(1) - 2018.08.15 at 18h 07m 30s.xml">
-      <configuration name="GridForFirefox (1)" configurationId="TestNG" />
+    <history-entry file="ParallelTest1 - 2018.08.16 at 12h 09m 55s.xml">
+      <configuration name="ParallelTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Olasunkanmi_Documents_workspace_CompleteSeleniumBootcamp_datadrivenframework_testng_xml - 2018.08.15 at 18h 20m 14s.xml">
-      <configuration name="/Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/datadrivenframework/testng.xml" configurationId="TestNG" />
+    <history-entry file="ParallelTest1 - 2018.08.16 at 12h 11m 22s.xml">
+      <configuration name="ParallelTest1" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-240" y="-1057" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17358893" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17358893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -364,7 +416,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.41554403" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.41554403" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,13 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/datadriven/ExcelDataDrivenLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1108">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForFirefox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -437,13 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForChrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -478,31 +516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/datadriven/DBDataDrivenLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="77" column="123" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForFirefox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -520,10 +537,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/datadriven/ExcelDataDrivenLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridassignment/ExcelGridForChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/datadriven/DBDataDrivenLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="81" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumgridexample/GridForChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="54" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="45">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngparalleltest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/paralleltestwithTestNG/ParallelChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="37" column="63" lean-forward="true" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/paralleltestwithTestNG/ParallelTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
         </state>
       </provider>
     </entry>
